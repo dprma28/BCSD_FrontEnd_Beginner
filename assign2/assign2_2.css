@@ -1,0 +1,38 @@
+#input {
+    width: 300px;
+    height: 40px;
+
+    padding-left: 10px;
+    
+    border: none;
+    border-radius: 10px;
+    
+    background-color: lavender;
+}
+#input:focus {
+    outline: 1.3px solid blueviolet;
+}
+#btn {
+    width: 50px;
+    height: 40px;
+
+    padding: 0px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: lavender;
+    color:blueviolet;
+    font-size: medium;
+}
+#button2, #deleteButton {
+    width: 80px;
+    height: 30px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: lavender;
+    color:blueviolet;
+    font-size: medium;
+}

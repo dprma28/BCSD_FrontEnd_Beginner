@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+.top {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #D2E3C8;
+}
+a {
+    color:#86A789;
+    font-weight: 800;
+    padding-right: 50px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singUpItems {
+    width: 450px;
+    height: 550px;
+}  
+h1 {
+    margin-top: 30px;
+    padding-left: 30px;
+    color: #86A789;
+    font-size: 25px;
+}
+input {
+    width: 320px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+input:focus {
+    outline-color: #D2E3C8;
+}
+.id-error, .pw-error, .major {
+    margin-left: 50px;
+    color: #86A789;
+    font-size: small;
+}
+.signup {
+    width: 160px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+
+    font-size: 15px;
+    color: #86A789;
+    background-color: #D2E3C8;
+    border: none;
+}
+.cancel {
+    width: 160px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+
+    font-size: 15px;
+    color: #86A789;
+    background-color: #D2E3C8;
+    border: none;
+}

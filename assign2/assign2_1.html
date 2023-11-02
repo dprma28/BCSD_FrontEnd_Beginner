@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h">안녕하세요</h1>
+    <button id="btn">버튼</button>
+    <script>
+        const h = document.getElementById("h");
+        const btn = document.getElementById("btn");
+
+        const change = () => {
+            const htag = document.createElement("h1");
+            htag.innerText = "추가된 엘리먼트"
+            htag.addEventListener("click", () => document.removeChild(htag))
+            document.body.appendChild(htag)
+            h.innertext = "반갑습니다."
+        }
+
+        btn.addEventListener("click", change);
+    </script>
+</body>
+</html>

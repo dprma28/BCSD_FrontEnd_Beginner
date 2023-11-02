@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+    <link rel="stylesheet" href="signUp.css">
+</head>
+<body>
+    <div class="top">
+        <a class="signin-link" href="logIn.html">LOGIN</a>
+        <a class="signup-link" href="signUp.html">SIGNUP</a>
+    </div>
+    <div class="container">
+        <div class="singUpItems">
+            <h1>SignUp</h1>
+
+            <input type="text" class="id" placeholder="ID">
+            <div class="id-error"></div>
+                
+            <input type="password" class="pw" placeholder="PASSWORD">
+            <input type="password" class="pw-check" placeholder="PASSWORD CHECK">
+            <div class="pw-error"></div>
+                
+            <input type="text" class="student-number" placeholder="STUDENT NUMBER" maxlength="10">
+                
+            <div class="major"></div>
+                
+            <input type="text" class="phone-number" placeholder="PHONE NUMBER" oninput="autoHyphen(this)">
+
+            <button type="button" class="signup">SIGNUP</button>
+            <button type="button" class="cancel">CANCEL</button>
+        </div>
+    </div>
+    <script src="signUp.js"></script>
+</body>
+</html>
