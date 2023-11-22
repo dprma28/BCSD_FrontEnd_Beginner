@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign5</title>
+    <link rel="stylesheet" href="assign5.css">
+</head>
+<body>
+    <script>
+        const container = document.createElement("div");
+        const btn = document.createElement("button");
+        const say = document.createElement("div");
+
+        btn.textContent = "클릭하세요!";
+        
+        container.appendChild(btn);
+        container.setAttribute("id","container");
+        
+        document.body.append(container);
+
+        btn.addEventListener("click", function() {
+            say.textContent = "집 보내주세요!";
+            say.setAttribute("id","say");
+            document.body.append(say);
+        });
+    </script>
+</body>
+</html>
